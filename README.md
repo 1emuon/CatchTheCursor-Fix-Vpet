@@ -52,7 +52,6 @@ HarmonyLib.HarmonyException
 | 文件 | 说明 |
 |---|---|
 | `CatchTheMousev1.10.dll` | 修复版插件（Harmony 2.4.2 内嵌，单文件、无外部依赖） |
-| [变更说明.md](变更说明.md) | 完整变更文档（根因分析、技术方案、安装与回滚） |
 
 ### 致谢
 
@@ -108,7 +107,6 @@ Download `CatchTheMousev1.10.dll` from [Releases](../../releases) and overwrite:
 | File | Description |
 |---|---|
 | `CatchTheMousev1.10.dll` | Fixed plugin (Harmony 2.4.2 embedded, single file, no external dependencies) |
-| [变更说明.md](变更说明.md) | Full changelog (root cause, technical approach, install & rollback) |
 
 ### Credits
 

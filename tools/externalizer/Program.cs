@@ -5,7 +5,7 @@ using System.Linq;
 using Mono.Cecil;
 using Mono.Cecil.Cil;
 
-// HarmonyExternalizer
+// HarmonyExternalizer；
 //   patch  : HarmonyExternalizer.exe patch <plugin.dll> <0Harmony.dll> <out.dll>
 //   verify : HarmonyExternalizer.exe verify <patched.dll>
 class Program

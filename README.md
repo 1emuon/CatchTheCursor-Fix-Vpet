@@ -9,7 +9,7 @@ A .NET 10 compatibility fix for the VPet plugin "CatchTheCursor" (抓光标).
 
 ### 这是什么
 
-《虚拟桌宠模拟器 (VPet)》的 MOD「抓光标」可以让桌宠追逐并抓住你的鼠标光标。2025 年 10 月 VPet 升级到 .NET 10 运行季后，该 MOD（含社区修复版）会启动即崩溃：
+《虚拟桌宠模拟器 (VPet)》的 MOD「抓光标」可以让桌宠追逐并抓住你的鼠标光标。
 
 ```
 HarmonyLib.HarmonyException

@@ -28,7 +28,7 @@ HarmonyLib.HarmonyException
 6. 用本仓库的 DLL 覆盖 `plugin\CatchTheMousev1.10.dll`。
 7. 启动游戏，MOD 列表中「抓光标」应显示启用，移动鼠标宠物会追逐光标。
 
-> ⚠️ **不要直接修改创意工坊目录里的文件**——Steam 会校验并还原，导致 MOD 加载失败。详细步骤见 [变更说明](变更说明.md) 第 7 节。
+> ⚠️ **不要直接修改创意工坊目录里的文件**——Steam 会校验并还原，导致 MOD 加载失败。
 
 ### 兼容性
 
@@ -73,8 +73,7 @@ The plugin DLL embeds Harmony 2.4.1, whose MonoMod.Core backend only supports up
 6. Overwrite `plugin\CatchTheMousev1.10.dll` with the DLL from this repo.
 7. Launch the game. The pet should now chase your cursor.
 
-> ⚠️ **Do not edit files inside the Steam workshop folder directly** — Steam verifies and restores them, and the mod will fail to load. See [变更说明](变更说明.md) §7 for full steps.
-
+> ⚠️ **Do not edit files inside the Steam workshop folder directly** — Steam verifies and restores them, and the mod will fail to load. 
 ### Compatibility
 
 - Requires the game runtime to be **.NET 10** (gamever ≥ 11057).

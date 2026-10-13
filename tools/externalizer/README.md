@@ -2,7 +2,7 @@
 
 本工具是 CatchTheCursor-Fix-Vpet 修复流程的第一步：把单文件插件 DLL 中**内嵌的 Harmony 生态类型**剥离出来，并将所有类型/方法/字段引用重写为指向外部 `0Harmony` 程序集，为升级 Harmony 版本做准备。
 
-## 原理
+## 操作原理
 
 社区修复版 `CatchTheMousev1.10.dll` 是用 ILRepack 合并的单文件程序集，内嵌了 HarmonyLib / MonoMod / Iced / Mono.Cecil 等约 2442 个类型。工具基于 Mono.Cecil：
 

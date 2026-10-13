@@ -18,19 +18,7 @@ HarmonyLib.HarmonyException
 
 原因是插件 DLL 内嵌的 Harmony 2.4.1 补丁库不支持 .NET 10。本仓库将其升级到 **Harmony 2.4.2** 并重新合并为单文件，插件功能逻辑与原 MOD 完全一致，业务代码零改动。
 
-### 安装方法（从创意工坊安装的请查看方法二）
-
-**前置条件：完全退出 VPet 游戏，并退订 Steam 创意工坊中的「抓光标」MOD。**
-
-#### 方式一：已有本地 mod 目录（推荐，最简）
-
-下载 [Releases](../../releases) 中的 `CatchTheMousev1.10.dll`，覆盖到：
-
-```
-<游戏安装目录>\mod\CatchTheCursorGame\plugin\CatchTheMousev1.10.dll
-```
-
-#### 方式二：从创意工坊版转换（保留原 mod 文件）
+### 安装方法
 
 1. 完全退出游戏
 2. 找到工坊目录：`steamapps\workshop\content\<VPet 的 AppID>\3210888681\`。

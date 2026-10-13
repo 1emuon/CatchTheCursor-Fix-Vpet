@@ -32,12 +32,13 @@ HarmonyLib.HarmonyException
 
 #### 方式二：从创意工坊版转换（保留原 mod 文件）
 
-1. 完全退出游戏，并在 Steam 中退订工坊版「抓光标」。
+1. 完全退出游戏
 2. 找到工坊目录：`steamapps\workshop\content\<VPet 的 AppID>\3210888681\`。
 3. 把整个文件夹**复制**到 `<游戏安装目录>\mod\`，重命名为 `CatchTheCursorGame`。
-4. 打开 `mod\CatchTheCursorGame\info.lps`，**删除 `itemid#3210888681:` 行**（跳过创意工坊校验的关键）。
-5. 用本仓库的 DLL 覆盖 `plugin\CatchTheMousev1.10.dll`。
-6. 启动游戏，MOD 列表中「抓光标」应显示启用，移动鼠标宠物会追逐光标。
+4. 在 Steam 中退订工坊版「抓光标」，将mod改为本地加载，避免由于mod校验导致的无法加载。
+5. 打开 `mod\CatchTheCursorGame\info.lps`，**删除 `itemid#3210888681:` 行**（跳过创意工坊校验的关键）。
+6. 用本仓库的 DLL 覆盖 `plugin\CatchTheMousev1.10.dll`。
+7. 启动游戏，MOD 列表中「抓光标」应显示启用，移动鼠标宠物会追逐光标。
 
 > ⚠️ **不要直接修改创意工坊目录里的文件**——Steam 会校验并还原，导致 MOD 加载失败。详细步骤见 [变更说明](变更说明.md) 第 7 节。
 

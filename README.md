@@ -51,13 +51,20 @@ HarmonyLib.HarmonyException
 
 | 文件 | 说明 |
 |---|---|
-| `CatchTheMousev1.10.dll` | 修复版插件（Harmony 2.4.2 内嵌，单文件、无外部依赖） |
+| `pluginfix/CatchTheMousev1.10.dll` | 修复版插件（Harmony 2.4.2 内嵌，单文件、无外部依赖） |
+| `tools/externalizer/` | Harmony 外置化工具源码（MIT 开源，可复现本修复的构建过程） |
+| `LICENSE` | MIT 许可证 |
 
 ### 致谢
 
 - 原插件作者：**cccccchara**（Steam 创意工坊 itemid 3210888681）
 - 社区修复：[WuChangqing1/VPet-CatchTheCursor-Fix](https://github.com/WuChangqing1/VPet-CatchTheCursor-Fix)
 - 本修复仅升级 Harmony 运行时版本，插件功能与原 MOD 保持一致
+
+### 许可证与版权
+
+- 本仓库的**修复方案、外置化工具（`tools/externalizer/`）与文档**以 [MIT 许可证](LICENSE) 开源，可自由使用、修改与再分发。
+- **插件本体代码**（`CatchTheMousev1.10.dll` 中的 `VPet.Plugin.CatchTheCursorGame.*`）版权归原作者 cccccchara，早期社区修复来自 WuChangqing1。本仓库仅提供 .NET 10 运行时兼容修复，不对原插件代码主张任何版权；如原作者认为侵权，请联系下架。
 
 ---
 
@@ -106,10 +113,17 @@ Download `CatchTheMousev1.10.dll` from [Releases](../../releases) and overwrite:
 
 | File | Description |
 |---|---|
-| `CatchTheMousev1.10.dll` | Fixed plugin (Harmony 2.4.2 embedded, single file, no external dependencies) |
+| `pluginfix/CatchTheMousev1.10.dll` | Fixed plugin (Harmony 2.4.2 embedded, single file, no external dependencies) |
+| `tools/externalizer/` | Source of the Harmony externalizer tool (MIT-licensed; reproduces this fix's build) |
+| `LICENSE` | MIT License |
 
 ### Credits
 
 - Original plugin by **cccccchara** (Steam Workshop itemid 3210888681)
 - Community fix: [WuChangqing1/VPet-CatchTheCursor-Fix](https://github.com/WuChangqing1/VPet-CatchTheCursor-Fix)
 - This fix only upgrades the embedded Harmony runtime; plugin behavior is unchanged
+
+### License & Copyright
+
+- The **fix approach, externalizer tool (`tools/externalizer/`) and documentation** in this repository are open-sourced under the [MIT License](LICENSE); free to use, modify and redistribute.
+- The **plugin code itself** (`VPet.Plugin.CatchTheCursorGame.*` inside `CatchTheMousev1.10.dll`) remains copyrighted by the original author cccccchara, with the early community fix by WuChangqing1. This repository only provides a .NET 10 runtime compatibility fix and claims no copyright over the original plugin code; original authors may contact us for takedown if they object.

@@ -65,24 +65,13 @@ The plugin DLL embeds Harmony 2.4.1, whose MonoMod.Core backend only supports up
 
 ### Installation
 
-**Prerequisites: fully exit VPet and unsubscribe the workshop version of CatchTheCursor.**
-
-#### Option A — existing local mod folder (simplest)
-
-Download `CatchTheMousev1.10.dll` from [Releases](../../releases) and overwrite:
-
-```
-<Game install dir>\mod\CatchTheCursorGame\plugin\CatchTheMousev1.10.dll
-```
-
-#### Option B — convert your workshop copy to a local mod
-
-1. Fully exit the game and unsubscribe the workshop mod in Steam.
+1. Fully exit the game.
 2. Locate the workshop files: `steamapps\workshop\content\<VPet AppID>\3210888681\`.
 3. **Copy** the whole folder to `<Game install dir>\mod\` and rename it to `CatchTheCursorGame`.
-4. Edit `mod\CatchTheCursorGame\info.lps` and **delete the line `itemid#3210888681:`** — this makes the game treat it as a local mod and skip workshop verification.
-5. Overwrite `plugin\CatchTheMousev1.10.dll` with the DLL from this repo.
-6. Launch the game. The pet should now chase your cursor.
+4. Unsubscribe the workshop mod in Steam
+5. Edit `mod\CatchTheCursorGame\info.lps` and **delete the line `itemid#3210888681:`** — this makes the game treat it as a local mod and skip workshop verification.
+6. Overwrite `plugin\CatchTheMousev1.10.dll` with the DLL from this repo.
+7. Launch the game. The pet should now chase your cursor.
 
 > ⚠️ **Do not edit files inside the Steam workshop folder directly** — Steam verifies and restores them, and the mod will fail to load. See [变更说明](变更说明.md) §7 for full steps.
 

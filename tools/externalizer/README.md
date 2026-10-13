@@ -52,7 +52,3 @@ Ext.exe readall CatchTheMousev1.10.dll "C:\Path\To\VPet"
 ```
 
 其中 `0Harmony.2.4.2.dll` 取自 NuGet 包 [Lib.Harmony 2.4.2](https://www.nuget.org/packages/Lib.Harmony/2.4.2) 的 `lib/net10.0/` 目录；ILRepack 取自 NuGet 包 [ILRepack](https://www.nuget.org/packages/ILRepack)。
-
-## 许可证
-
-MIT，见仓库根目录 [LICENSE](../../LICENSE)。

@@ -9,7 +9,7 @@ A .NET 10 compatibility fix for the VPet plugin "CatchTheCursor" (抓光标).
 
 ### 这是什么
 
-《虚拟桌宠模拟器 (VPet)》的 MOD「抓光标」的修复文件，该mod在某次更新后添加枕头好睡的修复dll后会报以下错误，同时介于在游戏启动时会进行mod校验，本人通过AI进行了修复。
+《虚拟桌宠模拟器 (VPet)》的 MOD「抓光标」的修复文件，该mod在某次更新后会报以下错误，本人通过AI进行了修复。
 
 ```
 HarmonyLib.HarmonyException
